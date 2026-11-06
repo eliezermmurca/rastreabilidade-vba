@@ -1,0 +1,25 @@
+# Configuração local (contém credenciais)
+config.ini
+*.local.ini
+
+# Planilhas: podem conter dados reais, p-code e metadados do autor.
+# O código-fonte versionado fica em src/.
+*.xlsm
+*.xlsx
+*.xls
+*.xlsb
+~$*
+*.tmp
+
+# Exportações / relatórios gerados
+*.pdf
+*.csv
+
+# Imagens de marca da empresa
+assets/*
+!assets/.gitkeep
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store

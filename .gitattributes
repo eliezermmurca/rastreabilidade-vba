@@ -1,0 +1,9 @@
+# O VBE importa/exporta arquivos em ANSI (Windows-1252) com CRLF.
+# No repositório ficam em UTF-8 (legíveis no GitHub); na cópia local, em CP1252.
+*.bas  text eol=crlf working-tree-encoding=CP1252
+*.cls  text eol=crlf working-tree-encoding=CP1252
+*.frm  text eol=crlf working-tree-encoding=CP1252
+*.vba  text eol=crlf working-tree-encoding=CP1252
+*.frx  binary
+*.ini  text eol=crlf working-tree-encoding=CP1252
+*.md   text eol=lf
